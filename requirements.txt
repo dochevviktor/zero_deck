@@ -1,0 +1,4 @@
+streamdeck~=0.9.5
+pillow~=10.4.0
+peewee~=3.17.6
+pyserial~=3.5
