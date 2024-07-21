@@ -7,9 +7,10 @@ import zlib
 from PIL import ImageDraw, ImageFont
 from PIL.ImageFont import FreeTypeFont
 from StreamDeck.ImageHelpers import PILHelper
+from pathlib import Path
 
 # Folder location of image assets used by this example.
-ASSETS_PATH = os.path.join(os.path.dirname(__file__), "resources")
+ASSETS_PATH = os.path.join(Path(__file__).parents[1], "resources")
 
 
 def load_image_to_base64(icon_filename):
